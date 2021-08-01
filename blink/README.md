@@ -1,5 +1,9 @@
 # Blink
 
+On folder create Go module:
+
+    go mod init blink
+
 Uploading to Arduino Uno:
 
     tinygo flash -target=arduino

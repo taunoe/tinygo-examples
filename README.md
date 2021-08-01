@@ -4,7 +4,8 @@ Simple experiments with TinyGo
 
 ## Code
 
-* [Blink](./blink/)
+* [Blink one LED](./blink/)
+* [Toggle two LEDs](./blink-2/)
 
 ## Links
 
