@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	// LED is ON, when button is pressed.
 
 	// Define button pin
 	button := machine.D2

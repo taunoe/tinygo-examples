@@ -15,13 +15,17 @@ Simple experiments with TinyGo.
 
     led.Configure(machine.PinConfig{Mode: machine.PinOutput})
 
+**Internal pull-up resistor:**
+
+    button.Configure(machine.PinConfig{Mode: machine.PinInputPullup})
+
 ## Methods
 
 **Digital read** pin with `.Get()`. Returns bool (true/false).
 
     button.Get()
 
-**Digital write** with `.Set()` method or `.High()` and `.Low`.
+**Digital write** with `.Set()` method or `.High()` and `.Low()`.
 
     led.Set(true) // High
     led.Low()
@@ -31,14 +35,19 @@ Simple experiments with TinyGo.
 
 * [Blink one LED](./blink/)
 * [Toggle two LEDs](./blink-2/)
-* [Toggle two LEDs with goroutine](./blink-goroutines/main.go)
-* [Knight Rider effect 1, LED array](./led-array-1/main.go)
-* [Knight Rider effect 2, LED array](./led-array-2/main.go)
-* [Digital input](./digital-input/main.go) Buttons with 10K pullup resistor.
+* [Toggle two LEDs with goroutine](./blink-goroutines/)
+* [Knight Rider effect 1, LED array](./led-array-1/)
+* [Knight Rider effect 2, LED array](./led-array-2/)
+* [Digital input](./digital-input/) Button with 10K pullup resistor.
+* [PWM - Pulse Width Modulation](./PWM/) Analog output
+* [Analog input, ADC](./analog_input/)
 
 ## Links
 
-* [TinyGo on Arduino Uno: An Introduction](https://create.arduino.cc/projecthub/alankrantas/tinygo-on-arduino-uno-an-introduction-6130f6)
+* [TinyGo on Arduino Uno: An Introduction](https://create.arduino.cc/projecthub/alankrantas/tinygo-on-arduino-uno-an-introduction-6130f6) - not updated
+* [Creative DIY Microcontroller Projects with TinyGo and WebAssembly](https://github.com/PacktPublishing/Creative-DIY-Microcontroller-Projects-with-TinyGo-and-WebAssembly)
+* [TinyGo.org examples](https://github.com/tinygo-org/tinygo/tree/release/src/examples)
+* [Goroutines in TinyGo](https://aykevl.nl/2019/02/tinygo-goroutines)
 
  ___
 
