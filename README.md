@@ -31,6 +31,12 @@ Simple experiments with TinyGo.
     led.Low()
     led.High()
 
+## Serial print
+
+Baudrate 9600. How to change?
+
+    println("Message")
+
 ## Example code
 
 * [Blink one LED](./blink/)
@@ -38,9 +44,11 @@ Simple experiments with TinyGo.
 * [Toggle two LEDs with goroutine](./blink-goroutines/)
 * [Knight Rider effect 1, LED array](./led-array-1/)
 * [Knight Rider effect 2, LED array](./led-array-2/)
-* [Digital input](./digital-input/) Button with 10K pullup resistor.
+* [Button/Digital input](./digital-input/) Button with 10K pullup resistor.
+* [Button/Digital input](./button/) With internal pullup resistor.
 * [PWM - Pulse Width Modulation](./PWM/) Analog output
 * [Analog input, ADC](./analog_input/)
+* [Pininterrupt](./interrupt/) Arduino not supported??
 
 ## Links
 

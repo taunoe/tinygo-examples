@@ -29,6 +29,7 @@ func led2() {
 
 func delay(t int64) {
 	time.Sleep(time.Duration(1000000 * t))
+	//time.Sleep(time.Millisecond * t)
 }
 
 func main() {
