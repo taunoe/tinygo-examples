@@ -35,6 +35,7 @@ Simple experiments with TinyGo.
 
 Baudrate 9600. How to change?
 
+    print("Message\n")
     println("Message")
 
 ## Time
