@@ -37,6 +37,11 @@ Baudrate 9600. How to change?
 
     println("Message")
 
+## Time
+
+    time.Second
+    time.Millisecond
+
 ## Example code
 
 * [Blink one LED](./blink/)
@@ -56,6 +61,7 @@ Baudrate 9600. How to change?
 * [Creative DIY Microcontroller Projects with TinyGo and WebAssembly](https://github.com/PacktPublishing/Creative-DIY-Microcontroller-Projects-with-TinyGo-and-WebAssembly)
 * [TinyGo.org examples](https://github.com/tinygo-org/tinygo/tree/release/src/examples)
 * [Goroutines in TinyGo](https://aykevl.nl/2019/02/tinygo-goroutines)
+* [TinyGo Drivers](https://github.com/tinygo-org/drivers)
 
  ___
 
