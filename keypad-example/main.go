@@ -3,7 +3,7 @@ package main
 import (
 	"machine"
 
-	"github.com/PacktPublishing/Creative-DIY-Microcontroller-Projects-with-TinyGo-and-WebAssembly/Chapter03/keypad"
+	"github.com/taunoe/tinygo-examples/keypad"
 )
 
 func main() {
