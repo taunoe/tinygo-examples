@@ -3,9 +3,9 @@ package keypad
 // Original code 05.08.2021:
 // https://github.com/PacktPublishing/Creative-DIY-Microcontroller-Projects-with-TinyGo-and-WebAssembly/tree/master/Chapter03/keypad
 
-import (
-	"machine"
-)
+//import (
+//	"machine"
+//)
 
 // Driver is a driver for 4x4 keypads
 type Driver struct {
