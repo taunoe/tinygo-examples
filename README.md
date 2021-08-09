@@ -43,6 +43,20 @@ Baudrate 9600. How to change?
     time.Second
     time.Millisecond
 
+## Build
+
+On folder create Go module:
+
+    go mod init
+
+Uploading to Arduino Uno:
+
+    tinygo flash -target=arduino
+
+Specifiying the port if needed
+
+    tinygo flash -target=arduino -port=/dev/ttyACM0
+
 ## Example code
 
 * [Blink one LED](./blink/)
