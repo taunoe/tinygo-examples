@@ -26,5 +26,11 @@ func main() {
 
 		led.High()
 		time.Sleep(time.Millisecond * 500)
+
+		led.Low()
+		time.Sleep(time.Millisecond * 100)
+
+		led.High()
+		time.Sleep(time.Millisecond * 100)
 	}
 }

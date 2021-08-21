@@ -19,6 +19,11 @@ func main() {
 		machine.D10,
 		machine.D9,
 		machine.D8,
+		machine.D7,
+		machine.D6,
+		machine.D5,
+		machine.D4,
+		machine.D3,
 	}
 
 	// Set LED pins output mode

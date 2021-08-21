@@ -43,21 +43,37 @@ Baudrate 9600. How to change?
     time.Second
     time.Millisecond
 
-## Build
+## Init modul
 
 On folder create Go module:
 
     go mod init
 
+Ad used depencies to `go.mod` file:
+
+    go mod tidy
+
+## Flash to board
+
 Uploading to Arduino Uno:
 
     tinygo flash -target=arduino
 
-Specifiying the port if needed
+Specifiying the port and path if needed:
 
-    tinygo flash -target=arduino -port=/dev/ttyACM0
+    tinygo flash -target=arduino -port=/dev/ttyACM0 path-to/main.go
 
-## Example code
+### Targets
+
+For Arduino Nano and Arduino Pro Mini use:
+
+    -target=arduino-nano
+
+## Build separate file
+
+    tinygo build --target=arduino -o outputfile path-to/main.go
+
+## Example codes
 
 * [Blink one LED](./blink/)
 * [Toggle two LEDs](./blink-2/)
@@ -69,6 +85,7 @@ Specifiying the port if needed
 * [PWM - Pulse Width Modulation](./PWM/) Analog output
 * [Analog input, ADC](./analog_input/)
 * [Pininterrupt](./interrupt/) Arduino not supported??
+* [UART0](./uart/)
 
 ## Links
 
